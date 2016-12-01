@@ -1,0 +1,61 @@
+@import 'base';
+@import '~normalize.css/normalize';
+
+// Some best-practice CSS that's useful for most apps
+// Just remove them if they're not what you want
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #000;
+  color: #55ff55;
+  font-family: monospace;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+a:visited {
+  color: #fff;
+}
+
+a:hover {
+  color: #55ff55;
+  transition: color 200ms ease-out;
+}
+
+article {
+  margin: 0 10px 10px;
+}
+
+article h1 {
+  margin: 0;
+}
+
+article h3 {
+  font-weight: normal;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+
+h1 {
+  margin: 10px;
+  text-transform: capitalize;
+}
