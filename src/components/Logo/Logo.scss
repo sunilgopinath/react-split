@@ -1,0 +1,19 @@
+.logoWrap {
+    margin: 0 auto 15px;
+    max-width: 380px;
+    padding: 0 10px;
+}
+
+.logo {
+    background: url('./brisbanetimes.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    height: 100%;
+    max-height: 38px;
+    width: auto;
+}
+
+.logo h1 {
+    visibility: hidden;
+}
